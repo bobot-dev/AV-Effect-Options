@@ -1,6 +1,6 @@
 # HC AV Effect Options
 
-This is an update of https://thunderstore.io/c/riskofrain2/p/Nuxlar/SOTS_AV_Effect_Options/ which is an update of https://thunderstore.io/c/riskofrain2/p/TeamNinjaDSM/JPs_AV_Effect_Options/
+This is an update of [SOTS AVEffect Options](https://thunderstore.io/c/riskofrain2/p/Nuxlar/SOTS_AV_Effect_Options/) which is an update of [JPs AV Effect Options](https://thunderstore.io/c/riskofrain2/p/TeamNinjaDSM/JPs_AV_Effect_Options/)
 
 Below README based on original.
 
@@ -46,7 +46,7 @@ Intended for headed client-side installations. [Should] have no effect on headle
 Once this mod is installed, just press ESC in your game client and go to SETTINGS. Risk Of Options will have a tab there where all items have toggles.
 
 Use [Rune580's Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_Options)
-![Risk of Options](https://github.com/tlsJP/ror2-av-effect-options/blob/main/screenshot.png)
+![Risk of Options](https://github.com/bobot-dev/AV-Effect-Options/blob/main/Images/settings%20screenshot.png)
 
 ## Credits
 

@@ -9,7 +9,8 @@ using FlickerLight = On.RoR2.FlickerLight;
 
 namespace AVOptions
 {
-    [BepInPlugin("com.thejpaproject.AVFX_Options", "JP's AV Effect Options", "2.1.1")]
+    [BepInPlugin("com.thejpaproject.AVFX_Options", "Bobot's AV Effect Options", "3.0.0")]
+    [BepInDependency("___riskofthunder.RoR2BepInExPack")]
     [BepInDependency("com.rune580.riskofoptions", (BepInDependency.DependencyFlags)2)]
     public sealed class AvOptions : BaseUnityPlugin
     {
