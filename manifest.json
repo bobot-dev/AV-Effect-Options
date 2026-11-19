@@ -1,0 +1,9 @@
+﻿{
+	"name": "SOTS_AV_Effect_Options",
+	"version_number": "1.0.2",
+	"website_url": "",
+	"description": "Enable or disable various items' AV effects. Updated for SOTS.",
+	"dependencies": [
+		"Rune580-Risk_Of_Options-2.8.1"
+	]
+}
