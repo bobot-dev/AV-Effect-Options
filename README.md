@@ -1,4 +1,6 @@
-# HC AV Effect Options
+# AV Effect Options
+
+**No generative AI was used in the process of updating this mod.** 
 
 This is an update of [SOTS AVEffect Options](https://thunderstore.io/c/riskofrain2/p/Nuxlar/SOTS_AV_Effect_Options/) which is an update of [JPs AV Effect Options](https://thunderstore.io/c/riskofrain2/p/TeamNinjaDSM/JPs_AV_Effect_Options/)
 
@@ -54,3 +56,5 @@ Use [Rune580's Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_
 - [Rune580](https://github.com/Rune580) for [Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_Options)
 - [tlsJP](https://github.com/tlsJP) for the [original version the mod](https://thunderstore.io/c/riskofrain2/p/TeamNinjaDSM/JPs_AV_Effect_Options/)
 - [Nuxlar](https://github.com/Nuxlar) for the [SOTS version the mod](https://thunderstore.io/c/riskofrain2/p/Nuxlar/SOTS_AV_Effect_Options/)
+
+###### this mod does not replace mercenary
