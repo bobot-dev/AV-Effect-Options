@@ -7,7 +7,7 @@ using UnityEngine.AddressableAssets;
 namespace AVOptions.Configurations
 {
 
-    public class ShurikenConfiguration(ConfigFile configFile) : AvConfiguration(configFile, Category.VOID_SFX, "Shuriken Sounds", "for wife.\n\nEffective immediately")
+    public class ShurikenConfiguration(ConfigFile configFile) : AvConfiguration(configFile, Category.VOID_SFX, "Shuriken Spawn Sound", "for wife.\n\nEffective immediately")
     {
         static ProjectileController s_projectileController;
         static ProjectileSingleTargetImpact s_projectileSingleTargetImpact;

@@ -9,7 +9,7 @@ using UnityEngine.AddressableAssets;
 
 namespace AVOptions.Configurations
 {
-    public class BehemothConfiguration(ConfigFile configFile) : AvConfiguration(configFile, Category.BASE_VFX, "Behemoth", "Behemoth explosion.\n\nEffective immediately")
+    public class BrilliantBehemothConfiguration(ConfigFile configFile) : AvConfiguration(configFile, Category.BASE_VFX, "Brilliant Behemoth", "Behemoth explosion.\n\nEffective immediately")
     {
         protected override void HandleEvent(object x, EventArgs args)
         {
@@ -32,7 +32,7 @@ namespace AVOptions.Configurations
                     x => x.MatchCallOrCallvirt<RoR2.Inventory>(nameof(RoR2.Inventory.GetItemCountEffective))
                 ))
             {
-                _logger.LogWarning("FlickerLight.FlickerLightOnUpdate GetItemCountEffective(Behemoth) TryGotoNext failed");
+                _logger.LogWarning("BrilliantBehemothConfiguration.GlobalEventManagerOnOnHitAllProcess GetItemCountEffective(Behemoth) TryGotoNext failed");
                 return;
             }
             
@@ -42,7 +42,7 @@ namespace AVOptions.Configurations
                     x => x.MatchCallOrCallvirt(typeof(RoR2.LegacyResourcesAPI), nameof(RoR2.LegacyResourcesAPI.Load))
                 ))
             {
-                _logger.LogWarning("FlickerLight.FlickerLightOnUpdate OmniExplosionVFXQuick TryGotoNext failed");
+                _logger.LogWarning("BrilliantBehemothConfiguration.GlobalEventManagerOnOnHitAllProcess OmniExplosionVFXQuick TryGotoNext failed");
                 return;
             }
 
@@ -51,7 +51,7 @@ namespace AVOptions.Configurations
             
             if (!c.TryGotoNext(MoveType.After, x => x.MatchCallOrCallvirt(typeof(RoR2.EffectManager), nameof(RoR2.EffectManager.SpawnEffect))))
             {
-                _logger.LogWarning("FlickerLight.FlickerLightOnUpdate EffectManager.SpawnEffect TryGotoNext failed");
+                _logger.LogWarning("BrilliantBehemothConfiguration.GlobalEventManagerOnOnHitAllProcess EffectManager.SpawnEffect TryGotoNext failed");
                 return;
             }
 

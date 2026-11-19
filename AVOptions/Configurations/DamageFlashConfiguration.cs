@@ -25,13 +25,13 @@ namespace AVOptions.Configurations
             _logger = BepInEx.Logging.Logger.CreateLogSource($"c.t.a.c.{GetType().Name}");
 
 
-            _damageFlashSliderPlayer = configFile.Bind(Category.FLICKERING, "Ally Damage Flash Intensity", 100, "Controls the intensity of the orange flash on ally's models when they take damage.\n\nEffective immediately");
+            _damageFlashSliderPlayer = configFile.Bind(Category.FLICKERING, "Ally Damage Flash Intensity", 100, "Controls the intensity of the orange flash on allies' models when they take damage.\n\nEffective immediately");
             RiskOfOptions.AddSliderOption(_damageFlashSliderPlayer);
             
             _damageFlashSliderOther = configFile.Bind(Category.FLICKERING, "Enemy Damage Flash Intensity", 100, "Controls the intensity of the orange flash on enemies models when they take damage.\n\nEffective immediately");
             RiskOfOptions.AddSliderOption(_damageFlashSliderOther);
             
-            _healFlashSliderPlayer = configFile.Bind(Category.FLICKERING, "Ally Heal Flash Intensity", 100, "Controls the intensity of the green flash on ally's models when they heal.\n\nEffective immediately");
+            _healFlashSliderPlayer = configFile.Bind(Category.FLICKERING, "Ally Heal Flash Intensity", 100, "Controls the intensity of the green flash on allies' models when they heal.\n\nEffective immediately");
             RiskOfOptions.AddSliderOption(_healFlashSliderPlayer);
             
             _healFlashSliderOther = configFile.Bind(Category.FLICKERING, "Enemy Heal Flash Intensity", 100, "Controls the intensity of the green flash on enemies' models when they heal.\n\nEffective immediately");

@@ -1,10 +1,8 @@
-# SOTS AV Effect Options
+# HC AV Effect Options
 
-This is an update of https://thunderstore.io/package/TeamNinjaDSM/JPs_AV_Effect_Options/
+This is an update of https://thunderstore.io/c/riskofrain2/p/Nuxlar/SOTS_AV_Effect_Options/ which is an update of https://thunderstore.io/c/riskofrain2/p/TeamNinjaDSM/JPs_AV_Effect_Options/
 
-Below is the copied README
-
-This was a pseudo-fork of https://gitlab.com/lexxyfox/ror2-av-effect-options
+Below README based on original.
 
 ## About
 
@@ -15,21 +13,33 @@ Intended for headed client-side installations. [Should] have no effect on headle
 ### Currently configurable
 
 - Blast Shower's effects
-- Brainstalks's screen effect
+- Blue/Gold portals' light
+- Brainstalks' screen effect
+- Brilliant Behemoth's explosion
+- Elusive Antlers' orb spawn sound
+- Faraday Spur's jump explosion and passive electric sound when charged
+- Firework's trails
 - Frost Relic particles and FOV change
 - Gasoline's explosion
 - Interstellar Desk Plant's indicator ward particle effects
 - Kjaro's Band tornado
-- Molten Perferators
+- Little Disciple's sounds
+- Molten Perferator's fireballs
 - Runald's Band explosion
-- Shatterspleen explosion
+- Plasma Shrimp AV effects
+- Shatterspleen's explosion
+- Shuriken's spawn sound
+- Stained Scimitar's spawn and idle loop sounds
 - Spinel Tonic's screen effect
 - Sticky Bomb's drops & explosion
 - Stone Titan's death effect
+- Void Fiend's movement sounds
 - Wandering Vagrant's death explosion
 - Weeping Fungus' effects
 - Will-o'-the-Wisp explosion
-- Plasma Shrimp AV effects
+- Speed and Intensity of (most) flickering lights in the game
+- Intensity of allies and enemies heal flash effect
+- Intensity of allies and enemies damage flash effect
 
 ## Configuring
 
@@ -40,21 +50,7 @@ Use [Rune580's Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_
 
 ## Credits
 
-These good people/beings did me a help one way or another, but don't necessarily endorse or condone myself or this mod.
-
-- Hopoo Games
-- [The Mono Project](https://www.mono-project.com)
-- [The BepInEx developers](https://github.com/BepInEx/BepInEx/graphs/contributors)
-- [ebkr](https://github.com/ebkr) [et alia](https://github.com/ebkr/r2modmanPlus/graphs/contributors) for [r2modman Plus](https://thunderstore.io/package/ebkr/r2modman)
-- The Thunderstore
+- [.score](https://github.com/goldenguy00) for helping me understand why the plasma shrimp audio setting wasn't working after hc
 - [Rune580](https://github.com/Rune580) for [Risk of Options](https://thunderstore.io/package/Rune580/Risk_Of_Options)
-- [Vl4dimyr](https://github.com/Vl4dimyr) for their [mod](https://thunderstore.io/package/Vl4dimyr/CaptainShotgunModes) (pictured)
-- Bon Yok
-- [RoR2 Modding Wiki](https://github.com/risk-of-thunder/R2Wiki)
-- YOU! For existing today :3
-
-## Notes
-
-- Xamarin's xbuild is not compatible with this mod, and will not be supported by me. (msbuild > xbuild)
-- This mod is **NOT** guaranteed to come with a virus.
-- I'm not a .NET/C# developer, so there's a good argument to be made that I have no idea what I'm doing
+- [tlsJP](https://github.com/tlsJP) for the [original version the mod](https://thunderstore.io/c/riskofrain2/p/TeamNinjaDSM/JPs_AV_Effect_Options/)
+- [Nuxlar](https://github.com/Nuxlar) for the [SOTS version the mod](https://thunderstore.io/c/riskofrain2/p/Nuxlar/SOTS_AV_Effect_Options/)

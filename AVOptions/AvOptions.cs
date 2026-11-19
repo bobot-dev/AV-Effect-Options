@@ -32,7 +32,7 @@ namespace AVOptions
         public static BortalConfiguration _bortalConfiguration;
         public static GortalConfiguration _gortalConfiguration;
         public static LittleDiscipleConfiguration _littleDiscipleConfiguration;
-        public static BehemothConfiguration _behemothConfiguration;
+        public static BrilliantBehemothConfiguration brilliantBehemothConfiguration;
         
         public static FaradaySpurConfiguration _faradaySpurConfiguration;
         public static FaradaySpurSoundConfiguration _faradaySpurSoundConfiguration;
@@ -58,14 +58,9 @@ namespace AVOptions
                 RiskOfOptions.Configure();
                 
                 
-                _flickerConfiguration = new FlickerConfiguration(Config);
-                //On.RoR2.FlickerLight.OnEnable += _flickerConfiguration.FlickerLightOnEnable;
-                //On.RoR2.FlickerLight.Start += _flickerConfiguration.FlickerLightStart;
-
-                _damageFlashConfiguration = new DamageFlashConfiguration(Config);
 
 
-                _behemothConfiguration = new BehemothConfiguration(Config);
+                brilliantBehemothConfiguration = new BrilliantBehemothConfiguration(Config);
                     
                 _blastShowerConfiguration = new BlastShowerConfiguration(Config);
                 _bortalConfiguration = new BortalConfiguration(Config);
@@ -109,6 +104,9 @@ namespace AVOptions
                 _faradaySpurSoundConfiguration = new FaradaySpurSoundConfiguration(Config);
                 _ghostBladeConfiguration = new GhostBladeConfiguration(Config);
                 
+
+                _flickerConfiguration = new FlickerConfiguration(Config);
+                _damageFlashConfiguration = new DamageFlashConfiguration(Config);
 
 
                 PrefabConfigurer.BindAsset(Category.UNIT_EFFECTS, "Base/Titan/TitanDeathEffect", "Titan Death", "Enables Stone Titan's on-death explosion. Disabling will cause Stone Titans to disappear on death instead of creating a corpse.");
